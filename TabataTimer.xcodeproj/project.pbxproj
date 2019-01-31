@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BEEB1612202DDC00019CE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB1602202DDC00019CE20 /* AppDelegate.swift */; };
+		4BEEB1632202DDC00019CE20 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB1622202DDC00019CE20 /* TimerViewController.swift */; };
+		4BEEB1662202DDC00019CE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BEEB1642202DDC00019CE20 /* Main.storyboard */; };
+		4BEEB1692202DDC00019CE20 /* TabataTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB1672202DDC00019CE20 /* TabataTimer.xcdatamodeld */; };
+		4BEEB16B2202DDC20019CE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BEEB16A2202DDC20019CE20 /* Assets.xcassets */; };
+		4BEEB16E2202DDC20019CE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BEEB16C2202DDC20019CE20 /* LaunchScreen.storyboard */; };
+		4BEEB1792202DDC20019CE20 /* TabataTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB1782202DDC20019CE20 /* TabataTimerUITests.swift */; };
+		4BEEB1842202E0C20019CE20 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB1832202E0C20019CE20 /* Extension.swift */; };
+		4BEEB1862202E42E0019CE20 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB1852202E42E0019CE20 /* SettingsViewController.swift */; };
+		4BEEB1882202E44F0019CE20 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB1872202E44F0019CE20 /* SettingsTableViewController.swift */; };
+		4BEEB18D2202E4B50019CE20 /* TimerChangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB18B2202E4B50019CE20 /* TimerChangeTableViewCell.swift */; };
+		4BEEB18E2202E4B50019CE20 /* TimerChangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BEEB18C2202E4B50019CE20 /* TimerChangeTableViewCell.xib */; };
+		4BEEB1902202E7C30019CE20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB18F2202E7C30019CE20 /* Constants.swift */; };
+		4BEEB1922202E7D30019CE20 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEEB1912202E7D30019CE20 /* Enum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BEEB1752202DDC20019CE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BEEB1552202DDC00019CE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BEEB15C2202DDC00019CE20;
+			remoteInfo = TabataTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BEEB15D2202DDC00019CE20 /* TabataTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabataTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEEB1602202DDC00019CE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BEEB1622202DDC00019CE20 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		4BEEB1652202DDC00019CE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BEEB1682202DDC00019CE20 /* TabataTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabataTimer.xcdatamodel; sourceTree = "<group>"; };
+		4BEEB16A2202DDC20019CE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BEEB16D2202DDC20019CE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BEEB16F2202DDC20019CE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BEEB1742202DDC20019CE20 /* TabataTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabataTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEEB1782202DDC20019CE20 /* TabataTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataTimerUITests.swift; sourceTree = "<group>"; };
+		4BEEB17A2202DDC20019CE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BEEB1832202E0C20019CE20 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4BEEB1852202E42E0019CE20 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4BEEB1872202E44F0019CE20 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		4BEEB18B2202E4B50019CE20 /* TimerChangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerChangeTableViewCell.swift; sourceTree = "<group>"; };
+		4BEEB18C2202E4B50019CE20 /* TimerChangeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerChangeTableViewCell.xib; sourceTree = "<group>"; };
+		4BEEB18F2202E7C30019CE20 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4BEEB1912202E7D30019CE20 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BEEB15A2202DDC00019CE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEEB1712202DDC20019CE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BEEB1542202DDC00019CE20 = {
+			isa = PBXGroup;
+			children = (
+				4BEEB15F2202DDC00019CE20 /* TabataTimer */,
+				4BEEB1772202DDC20019CE20 /* TabataTimerUITests */,
+				4BEEB15E2202DDC00019CE20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BEEB15E2202DDC00019CE20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BEEB15D2202DDC00019CE20 /* TabataTimer.app */,
+				4BEEB1742202DDC20019CE20 /* TabataTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BEEB15F2202DDC00019CE20 /* TabataTimer */ = {
+			isa = PBXGroup;
+			children = (
+				4BEEB1602202DDC00019CE20 /* AppDelegate.swift */,
+				4BEEB1622202DDC00019CE20 /* TimerViewController.swift */,
+				4BEEB1642202DDC00019CE20 /* Main.storyboard */,
+				4BEEB1852202E42E0019CE20 /* SettingsViewController.swift */,
+				4BEEB1832202E0C20019CE20 /* Extension.swift */,
+				4BEEB16A2202DDC20019CE20 /* Assets.xcassets */,
+				4BEEB16C2202DDC20019CE20 /* LaunchScreen.storyboard */,
+				4BEEB16F2202DDC20019CE20 /* Info.plist */,
+				4BEEB1672202DDC00019CE20 /* TabataTimer.xcdatamodeld */,
+				4BEEB1872202E44F0019CE20 /* SettingsTableViewController.swift */,
+				4BEEB18B2202E4B50019CE20 /* TimerChangeTableViewCell.swift */,
+				4BEEB18C2202E4B50019CE20 /* TimerChangeTableViewCell.xib */,
+				4BEEB18F2202E7C30019CE20 /* Constants.swift */,
+				4BEEB1912202E7D30019CE20 /* Enum.swift */,
+			);
+			path = TabataTimer;
+			sourceTree = "<group>";
+		};
+		4BEEB1772202DDC20019CE20 /* TabataTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BEEB1782202DDC20019CE20 /* TabataTimerUITests.swift */,
+				4BEEB17A2202DDC20019CE20 /* Info.plist */,
+			);
+			path = TabataTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BEEB15C2202DDC00019CE20 /* TabataTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BEEB17D2202DDC20019CE20 /* Build configuration list for PBXNativeTarget "TabataTimer" */;
+			buildPhases = (
+				4BEEB1592202DDC00019CE20 /* Sources */,
+				4BEEB15A2202DDC00019CE20 /* Frameworks */,
+				4BEEB15B2202DDC00019CE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabataTimer;
+			productName = TabataTimer;
+			productReference = 4BEEB15D2202DDC00019CE20 /* TabataTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BEEB1732202DDC20019CE20 /* TabataTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BEEB1802202DDC20019CE20 /* Build configuration list for PBXNativeTarget "TabataTimerUITests" */;
+			buildPhases = (
+				4BEEB1702202DDC20019CE20 /* Sources */,
+				4BEEB1712202DDC20019CE20 /* Frameworks */,
+				4BEEB1722202DDC20019CE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BEEB1762202DDC20019CE20 /* PBXTargetDependency */,
+			);
+			name = TabataTimerUITests;
+			productName = TabataTimerUITests;
+			productReference = 4BEEB1742202DDC20019CE20 /* TabataTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BEEB1552202DDC00019CE20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nikhil Dhavale";
+				TargetAttributes = {
+					4BEEB15C2202DDC00019CE20 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4BEEB1732202DDC20019CE20 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4BEEB15C2202DDC00019CE20;
+					};
+				};
+			};
+			buildConfigurationList = 4BEEB1582202DDC00019CE20 /* Build configuration list for PBXProject "TabataTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BEEB1542202DDC00019CE20;
+			productRefGroup = 4BEEB15E2202DDC00019CE20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BEEB15C2202DDC00019CE20 /* TabataTimer */,
+				4BEEB1732202DDC20019CE20 /* TabataTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BEEB15B2202DDC00019CE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEEB16E2202DDC20019CE20 /* LaunchScreen.storyboard in Resources */,
+				4BEEB16B2202DDC20019CE20 /* Assets.xcassets in Resources */,
+				4BEEB1662202DDC00019CE20 /* Main.storyboard in Resources */,
+				4BEEB18E2202E4B50019CE20 /* TimerChangeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEEB1722202DDC20019CE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BEEB1592202DDC00019CE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEEB1632202DDC00019CE20 /* TimerViewController.swift in Sources */,
+				4BEEB18D2202E4B50019CE20 /* TimerChangeTableViewCell.swift in Sources */,
+				4BEEB1692202DDC00019CE20 /* TabataTimer.xcdatamodeld in Sources */,
+				4BEEB1882202E44F0019CE20 /* SettingsTableViewController.swift in Sources */,
+				4BEEB1612202DDC00019CE20 /* AppDelegate.swift in Sources */,
+				4BEEB1922202E7D30019CE20 /* Enum.swift in Sources */,
+				4BEEB1862202E42E0019CE20 /* SettingsViewController.swift in Sources */,
+				4BEEB1842202E0C20019CE20 /* Extension.swift in Sources */,
+				4BEEB1902202E7C30019CE20 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEEB1702202DDC20019CE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEEB1792202DDC20019CE20 /* TabataTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BEEB1762202DDC20019CE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BEEB15C2202DDC00019CE20 /* TabataTimer */;
+			targetProxy = 4BEEB1752202DDC20019CE20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BEEB1642202DDC00019CE20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BEEB1652202DDC00019CE20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BEEB16C2202DDC20019CE20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BEEB16D2202DDC20019CE20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BEEB17B2202DDC20019CE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BEEB17C2202DDC20019CE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BEEB17E2202DDC20019CE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabataTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabataTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BEEB17F2202DDC20019CE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabataTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabataTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BEEB1812202DDC20019CE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabataTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabataTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabataTimer;
+			};
+			name = Debug;
+		};
+		4BEEB1822202DDC20019CE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabataTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabataTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabataTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BEEB1582202DDC00019CE20 /* Build configuration list for PBXProject "TabataTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEEB17B2202DDC20019CE20 /* Debug */,
+				4BEEB17C2202DDC20019CE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BEEB17D2202DDC20019CE20 /* Build configuration list for PBXNativeTarget "TabataTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEEB17E2202DDC20019CE20 /* Debug */,
+				4BEEB17F2202DDC20019CE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BEEB1802202DDC20019CE20 /* Build configuration list for PBXNativeTarget "TabataTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEEB1812202DDC20019CE20 /* Debug */,
+				4BEEB1822202DDC20019CE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BEEB1672202DDC00019CE20 /* TabataTimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BEEB1682202DDC00019CE20 /* TabataTimer.xcdatamodel */,
+			);
+			currentVersion = 4BEEB1682202DDC00019CE20 /* TabataTimer.xcdatamodel */;
+			path = TabataTimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BEEB1552202DDC00019CE20 /* Project object */;
+}
